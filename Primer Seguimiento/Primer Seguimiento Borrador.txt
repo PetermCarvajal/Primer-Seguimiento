@@ -1,0 +1,26 @@
+1.Es una manera o estilo de programación de software para diseñar un lenguaje,varios modos de trabajar para obtener los resultados que se necesitan.
+
+ Es una forma de pensar a  la hora de diseñar la solución de un problema. Se suele  dividir en: Imperativo y el Declarativo y cada uno tiene   unas subdivisiones 
+
+Imperativo: Estructurado y Orientado a Objetos.
+Declarativo: Logico y Funcional.
+
+2.Programacion orientada a  objetos POO es un modulador de código haciéndolo mas entendible y mas reutilizable.
+ Se basa en el entregar tipos nuevos de datos   " Llamados objetos", Tienen funciones y se compone de 4 pilares:abstraccion , encapsulamiento,herencia y polimorfismo.
+
+3.¿Qué es una maquina virtual?;¿Qué es el bytecode?;¿Java es un compilador?;¿Está Optimizado el Bytecode?; El Bytecode es realmente independiente de la máquina?¿qué pasa con cosas como el endianismo?;¿Java es un lenguaje interpretado?;¿ Pueden otros lenguajes  ejecutarse en la JVM?.
+
+
+En ele libro se explica  y se  comentan diversas cosas a lo largo de las  9 Preguntas planteadas. Dando  por entendido que:
+
+La forma de pensar que algunas de las personas suelen tener a lo que es una maquina virtual es una interpretación que debido a lo simple de su intuición puede resultar engañosa. 
+Define al ByteCode como el punto intermedio entre lo que yo/otros  le damos a la maquina como instrucciones y lo que la maquina le llega o interpreta.
+Nos ilustra con que  Java no es Tomado como compilador para poder diferenciarlo  del compilador del  código fuente a lo largo de este  libro.
+Nos relata una estadística importante en donde 200 de las 256 posibles instrucciones  no se usan.
+No actualmente no esta optimizado el , sin embargo en sus inicios estaba fuertemente optimizado resultado en un error.
+Si, Ciertamente es independiente de la máquina en donde se creo,  Y a los bytes a veces s eles llama  Así.
+Si , aunque la linea entre interpretados y compilados cada vez resulta ser mas difusa.
+Si, el Puede efectivamente  ejecutar cualquier archivo de clase  que compla  con los parámetros para conciderarase valido.
+
+
+ 
