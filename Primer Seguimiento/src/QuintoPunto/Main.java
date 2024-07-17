@@ -1,17 +1,11 @@
 package QuintoPunto;
-
-import javax.swing.*;
 import java.util.Scanner;
-
+import javax.swing.JOptionPane;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.print("Explique que son los Datos Primitivos en Java. Y haga 3 ejemplos de cada uno de los tipos, mostrando " +
-                "su salida por la consola.");
-        System.out.print("Los Tipos de Datos Primitivos es un tipo de dato básico, Son usados en función del tamaño de Número que se neceista, Pero las  Letras  " +
-                "Solo se puede usar de a 1 Letra \n Pués de lo contrario se convierte en un  Tipo de dato De Referencia \\n\\n Los datos Primitivos se Dividen en 4 y son: \\n\" +\n" +
-                "                \" Booleanos=Falso o Verdadero;Character = esto simboliza que recibe un único Caracter/letra/digito;Integer:Este se subdivide en 4 Los  cuales son  byte,short,int,long;" +
-                "Float=Flotante /Decimales. Este se Subdivide en 2:float y double \n Para estos Ejemplos se usaran Booleanos Caracter y Enteros\n\n\n\n");
+        System.out.println("Explique que son los Datos Primitivos en Java. Y haga 3 ejemplos de cada uno de los tipos, mostrando su salida por la consola.");
+        System.out.println("Los Tipos de Datos Primitivos es un tipo de dato básico, Son usados en función del tamaño de Número que se neceista, Pero las  Letras  Solo se puede usar de a 1 Letra \n Pués de lo contrario se convierte en un  Tipo de dato De Referencia \\n\\n Los datos Primitivos se Dividen en 4 y son: \n \n Booleanos=Falso o Verdadero;Character = esto simboliza que recibe un único Caracter/letra/digito;Integer:Este se subdivide en 4 Los  cuales son  byte,short,int,long; Float=Flotante /Decimales. Este se Subdivide en 2:float y double \n Para estos Ejemplos se usaran Booleanos Caracter y Enteros\n\n\n\n");
 
         JOptionPane.showMessageDialog(null, "Buenos Días Por favor digiete el número del tipo de dato que queire ver Ejemplo \n 1. Booleanos \n 2. Character \n 3. Integer \n 4.Float");
         Scanner selector = new Scanner(System.in);
@@ -64,7 +58,6 @@ public class Main {
                                         break;
                                 }
                             case 3:
-                                Scanner entrada = new Scanner(System.in);
                                 JOptionPane.showMessageDialog(null, "Confirmo de Contraseña");
                                 String passAnterior = null;
                                 boolean valido = false;
@@ -215,4 +208,4 @@ public class Main {
         }
     }
 }
-// ESTE  me marca 24 advertencias , 5 advertencias debiles   pero no me los marca el programa no me los describe la consola esta  vacia.  ¿Comó se muestran los Errores?
+// ESTE  5 advertencias debiles y 17 advertencias pero no me los marca el programa no me los describe la consola esta  vacia.  ¿Comó se muestran los Errores?

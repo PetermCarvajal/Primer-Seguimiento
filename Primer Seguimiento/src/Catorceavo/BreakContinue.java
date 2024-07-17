@@ -1,5 +1,6 @@
 package Catorceavo;
 
+
 import javax.swing.*;
 
 public class BreakContinue {
@@ -8,18 +9,19 @@ public class BreakContinue {
         continuar();
     }
     public static void breaks() {
-        int a=1;
-        switch(a) {
+        String a= JOptionPane.showInputDialog(null,"Seleccione 1 Ejemplo \n 1. \n 2. \n 3.");
+        int b=Integer.parseInt(a);
+        switch(b) {
             case 1:
                 JOptionPane.showMessageDialog(null,"En este Ejemplo No Usare el Break y entonces Caso 1 y Caso 2 Se Ejecutaran Pero El Caso 3 No");
             case 2:
-                for (a=1; a<=10; a++) {
+                for (b=1; b<=10; b++) {
                     System.out.println(a);
                 }
-            break;
+                break;
             case 3:
                 JOptionPane.showMessageDialog(null,"Esto No se Mostrara");
-            break;
+                break;
         }
     }
     public static void continuar() {
